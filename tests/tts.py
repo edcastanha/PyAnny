@@ -3,9 +3,13 @@ import pyttsx3
 engine = pyttsx3.init()
 
 
-voices = engine .getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[53].id)
 
+rate = engine.getProperty('rate')
+engine.setProperty('rate', rate-25)
 
-engine.say("Vou falar desta forma até a Caroline olhar para o lado")
+engine.say("Vou falar deste texto")
+   
+
 engine.runAndWait()
