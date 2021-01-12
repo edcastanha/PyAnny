@@ -16,10 +16,11 @@ Linux distributions (like Ubuntu and Mint), install PyAudio using APT:
 If the version in the repositories is too old, install the latest release using Pip: execute sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip install pyaudio (replace pip with pip3 if using Python 3).
 
 
-Objetivos: 
-- Reconhecimento de fala: - Google (online) => descartado pela demanda de conexão e alto tempo de resposta. 
+### Objetivos: 
+- Reconhecimento de fala: 
+    - Google (online) => descartado pela demanda de conexão e alto tempo de resposta. 
 
-- Vosk => Funcionalidade Offline
+    - Vosk => Funcionalidade Offline
 
 - Sintese de Voz:
     - PyTTSx3 
